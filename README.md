@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Custom Hand-Crafted Cyberpunk Animated Banner -->
-  <img src="./assets/header-cyber.svg" width="100%" alt="Asad Lee Header"/>
+  <img src="https://raw.githubusercontent.com/Asadlee24/Asadlee24/main/assets/header-cyber.svg" width="100%" alt="Asad Lee Header"/>
 
   <br/><br/>
 
@@ -37,7 +37,7 @@
 
 <!-- Interactive Cyber Terminal HUD -->
 <div align="center">
-  <img src="./assets/terminal-hud.svg" width="100%" alt="System Terminal HUD" />
+  <img src="https://raw.githubusercontent.com/Asadlee24/Asadlee24/main/assets/terminal-hud.svg" width="100%" alt="System Terminal HUD" />
 </div>
 
 <br/>
