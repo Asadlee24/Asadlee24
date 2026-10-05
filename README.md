@@ -1,25 +1,27 @@
 <div align="center">
 
-  <!-- Header Banner with Wave Animation & Dynamic Gradient -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=240&section=header&text=Asad%20Lee&fontSize=48&fontAlignY=38&desc=Full-Stack%20%E2%80%A2%20Web3%20%E2%80%A2%20AI%20Agent%20Architect&descAlignY=58&descAlign=50&animation=twinkling" width="100%" alt="Asad Lee Banner"/>
+  <!-- Minimalist High-End Gradient Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=220&section=header&text=Asad%20Lee&fontSize=44&fontAlignY=36&desc=Full-Stack%20%7C%20Web3%20%7C%20Distributed%20Agent%20Architect&descAlignY=56&descAlign=50" width="100%" alt="Asad Lee Header"/>
 
-  <!-- Animated Typing SVG -->
+  <!-- Clean Monospace Typing SVG (No generic emojis) -->
   <a href="https://asad-lee-portfolio.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=620&lines=Full-Stack+%26+Web3+Developer+%F0%9F%8C%90;Building+Autonomous+Agent+Infrastructure+%F0%9F%A4%96;Protocol+Testing+%26+Security+Research+%F0%9F%9B%A1%EF%B8%8F;Building+in+Public+%E2%80%A2+Open+Source+Contributor+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=Full-Stack+%26+Web3+Systems+Developer;Building+Autonomous+Agent+Infrastructure;Ed25519+Identity+%26+HTLC%2FPTLC+Settlement+Rails;Open-Source+Contributor+%26+Protocol+Security" alt="Typing Banner" />
   </a>
+
+  <br/>
 
   <p align="center">
     <a href="https://asad-lee-portfolio.vercel.app/">
-      <img src="https://img.shields.io/badge/Portfolio-asad--lee-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio"/>
+      <img src="https://img.shields.io/badge/Portfolio-asad--lee-0284c7?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/>
     </a>
     <a href="https://x.com/asadleo416?s=11">
-      <img src="https://img.shields.io/badge/X-@asadleo416-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X"/>
+      <img src="https://img.shields.io/badge/X-@asadleo416-0f172a?style=flat-square&logo=x&logoColor=white" alt="Twitter/X"/>
     </a>
     <a href="https://github.com/Asadlee24">
-      <img src="https://img.shields.io/badge/GitHub-Asadlee24-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+      <img src="https://img.shields.io/badge/GitHub-Asadlee24-1e293b?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
     </a>
-    <a href="https://komarev.com/ghpvc/?username=Asadlee24&label=Profile%20Views&color=00f0ff&style=for-the-badge">
-      <img src="https://komarev.com/ghpvc/?username=Asadlee24&label=Profile%20Views&color=00f0ff&style=for-the-badge" alt="Profile Views" />
+    <a href="https://komarev.com/ghpvc/?username=Asadlee24&label=Profile%20Traffic&color=0284c7&style=flat-square">
+      <img src="https://komarev.com/ghpvc/?username=Asadlee24&label=Profile%20Traffic&color=0284c7&style=flat-square" alt="Traffic" />
     </a>
   </p>
 
@@ -27,87 +29,77 @@
 
 ---
 
-### 👨‍💻 About Me
+### Profile Overview
 
-```yaml
-name: Asad Lee
-role: Full-stack & Web3 Developer
-status: 😇 Building in public
-location: Peshawar, Pakistan 🇵🇰
-passions:
-  - Decentralized Protocols & Web3 Bridging
-  - Autonomous AI Agent Infrastructure & Mesh Networks
-  - Smart Contract Auditing & Security Research
-current_focus: Building sovereign agent ecosystems & trustless deal-making rails
-motto: "Code the future, verify everything, open-source relentlessly."
+```typescript
+interface DeveloperProfile {
+  name: "Asad Lee";
+  title: "Full-Stack & Web3 Systems Architect";
+  location: "Peshawar, Pakistan";
+  domains: [
+    "Autonomous Agent Telemetry & Mesh Networks",
+    "Cross-Chain Liquidity & Settlement Infrastructure",
+    "Cryptographic Primitives (Ed25519, HTLC/PTLC)",
+    "Distributed Web Applications & Microservices"
+  ];
+  currentWork: "Engineering sovereign agent protocols and real-time network explorers";
+}
 ```
 
-- 🔭 Currently architecting **Technocore** agent telemetry consoles & cross-chain liquidity rails.
-- ⚡ Specializing in **HTLC/PTLC cryptographic deal-making** for autonomous chat agents.
-- 🌱 Exploring cutting-edge zero-knowledge systems, agentic coordination protocols & state channels.
-- 💬 Ask me about: **Web3, Ed25519 cryptography, TypeScript/Node.js, Agent Swarms & Smart Contracts**.
-- 📬 Reach out directly on [X (@asadleo416)](https://x.com/asadleo416?s=11) or explore my live projects at [asad-lee-portfolio.vercel.app](https://asad-lee-portfolio.vercel.app/).
+Focused on designing resilient distributed systems, autonomous agent execution runtimes, and secure cross-chain rails. Dedicated to open-source software, rigorous protocol testing, and verifiable computation.
 
 ---
 
-### 🛠️ Tech Stack & Arsenal
+### Core Engineering Arsenal
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,tailwind,solidity,rust,python,git,github,docker,linux,postman,vercel,vscode,vitest&perline=9" alt="Tech Stack Icons"/>
-  </a>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,tailwind,solidity,rust,python,git,github,docker,linux,postman,vercel,vscode,vitest&perline=9" alt="Skills Matrix" />
 </div>
 
 <br/>
 
-<details>
-<summary><b>🔥 Detailed Breakdown by Category (Click to expand)</b></summary>
-<br/>
-
-| Category | Technologies & Tools |
+| Domain | Core Stack & Frameworks |
 | :--- | :--- |
-| **Languages** | TypeScript, JavaScript (ESNext), Solidity, Rust, Python, HTML5/CSS3 |
-| **Frontend & UI** | Next.js, React.js, TailwindCSS, WebSockets, Responsive UI/UX |
-| **Backend & Microservices** | Node.js, Express, REST APIs, GraphQL, Serverless Architecture |
-| **Web3 & Cryptography** | Ed25519 Signatures, Smart Contracts, HTLC/PTLC protocols, Ethers.js, Viem |
-| **DevOps & Cloud** | Git, GitHub Actions, Docker, Linux/Bash, Vercel, Cloudflare |
-| **Security & Testing** | Protocol Verification, Unit & E2E Testing (Vitest, Jest), Security Auditing |
-
-</details>
+| **Languages** | TypeScript, JavaScript, Solidity, Rust, Python, SQL |
+| **Frontend Architecture** | Next.js, React, TailwindCSS, WebSocket Stream Consumers, State Management |
+| **Backend & Distributed** | Node.js, Express, RESTful APIs, GraphQL, Microservices, Event Buses |
+| **Web3 & Cryptography** | Ed25519 Identity, HTLC / PTLC Deal Engines, Smart Contracts, Ethers.js, Viem |
+| **Infrastructure & CI/CD** | Docker, Linux Environments, GitHub Actions, Vercel, Cloudflare Workers |
+| **Security & Quality** | Vitest, Jest, Unit & Integration Pipelines, Protocol Audits |
 
 ---
 
-### 🚀 Highlighted Work & Projects
+### Featured Protocols & Systems
 
 <div align="center">
 
-| Project | Description | Stack | Status |
-| :--- | :--- | :--- | :---: |
-| 🌐 [**Technocore Console**](https://github.com/Asadlee24/technocore-console) | Client-side control panel & Ed25519 identity console for the Technocore agent chat protocol | `JS` `Crypto` `WebSockets` | 🟢 Active |
-| 📡 [**Technocore Explorer**](https://github.com/Asadlee24/technocore-explorer) | Human-friendly real-time telemetry explorer & activity dashboard for autonomous agent networks | `TypeScript` `React` `APIs` | 🟢 Active |
-| 🤝 [**TCLK Deal-Making**](https://github.com/Asadlee24/tclk) | Cryptographic HTLC/PTLC negotiation engine enabling chat agents to lock, verify & settle trustlessly | `TypeScript` `HTLC/PTLC` `Ed25519` | 🧪 Beta |
-| 🌉 [**Arcshift USDC Bridge**](https://github.com/Asadlee24/arcshift-usdc-bridge) | Resilient cross-chain bridging rail optimizing liquidity transfers & settlement speeds | `TypeScript` `Web3` `EVM` | ⚡ Live |
-| ⚡ [**Warp Transfer**](https://github.com/Asadlee24/warp-transfer) | High-speed asset transit protocol built for lightweight distributed micro-settlements | `JavaScript` `Protocol` | 🟢 Active |
+| System | Focus & Architecture | Stack | Repository |
+| :--- | :--- | :--- | :--- |
+| **Technocore Console** | Client-side control panel and Ed25519 identity console for the Technocore agent chat protocol | `JS` `Ed25519` `WebSockets` | [View Source](https://github.com/Asadlee24/technocore-console) |
+| **Technocore Explorer** | Real-time network telemetry observer and activity dashboard for autonomous agent clusters | `TypeScript` `React` `APIs` | [View Source](https://github.com/Asadlee24/technocore-explorer) |
+| **TCLK Deal Engine** | Cryptographic HTLC/PTLC settlement protocol enabling autonomous chat agents to lock, verify, and settle trustlessly | `TypeScript` `HTLC/PTLC` `Crypto` | [View Source](https://github.com/Asadlee24/tclk) |
+| **Arcshift USDC Bridge** | High-efficiency cross-chain liquidity router and settlement mechanism for stable asset transit | `TypeScript` `Web3` `EVM` | [View Source](https://github.com/Asadlee24/arcshift-usdc-bridge) |
+| **Warp Transfer** | Lightweight transaction dispatch pipeline engineered for low-latency decentralized micro-settlements | `JavaScript` `Protocol` `P2P` | [View Source](https://github.com/Asadlee24/warp-transfer) |
 
 </div>
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### Activity & Repository Metrics
 
 <div align="center">
   <table border="0">
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Asadlee24&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=79c0ff&text_color=c9d1d9" width="100%" alt="Asadlee24 Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Asadlee24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=0284c7&text_color=94a3b8" width="100%" alt="Asadlee24 Metrics" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Asadlee24&theme=radical&hide_border=true&background=0D1117&ring=58A6FF&fire=F78166&currStreakLabel=79C0FF" width="100%" alt="Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Asadlee24&theme=tokyonight&hide_border=true&background=0D1117&ring=0284C7&fire=38BDF8&currStreakLabel=38BDF8" width="100%" alt="Contribution Streaks" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asadlee24&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" width="70%" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asadlee24&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="70%" alt="Top Languages" />
       </td>
     </tr>
   </table>
@@ -115,29 +107,35 @@ motto: "Code the future, verify everything, open-source relentlessly."
 
 ---
 
-### 🐍 Contribution Activity Snake
+### Contribution Matrix
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Asadlee24/Asadlee24/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asadlee24/Asadlee24/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asadlee24/Asadlee24/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Asadlee24/Asadlee24/output/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
 </div>
 
 ---
 
-### 🤝 Connect & Collaborate
-
 <div align="center">
 
-  [![Portfolio Badge](https://img.shields.io/badge/Portfolio-Live_Site-00F0FF?style=for-the-badge&logo=firefox-browser&logoColor=black)](https://asad-lee-portfolio.vercel.app/)
-  [![Twitter/X Badge](https://img.shields.io/badge/X-@asadleo416-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/asadleo416?s=11)
-  [![GitHub Follow](https://img.shields.io/badge/Follow-@Asadlee24-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Asadlee24)
+  ### Connect
+
+  [![Live Portfolio](https://img.shields.io/badge/Portfolio-asad--lee-0284c7?style=for-the-badge&logo=vercel&logoColor=white)](https://asad-lee-portfolio.vercel.app/)
+  &nbsp;
+  [![X Platform](https://img.shields.io/badge/X-@asadleo416-0f172a?style=for-the-badge&logo=x&logoColor=white)](https://x.com/asadleo416?s=11)
+  &nbsp;
+  [![GitHub Profile](https://img.shields.io/badge/GitHub-Asadlee24-1e293b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Asadlee24)
 
   <br/><br/>
-  
-  <i>"Passionate about building sovereign agents, trustless computation, and open-source infrastructure."</i>
+
+  <sub>Engineered by <b>Asad Lee</b> • All systems open-source and verifiable</sub>
 
   <br/><br/>
 
-  <!-- Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,11,6&height=120&section=footer" width="100%" alt="Footer Banner"/>
+  <!-- Clean Footer Accent -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,2&height=90&section=footer" width="100%" alt="Footer Wave"/>
 
 </div>
