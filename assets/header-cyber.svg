@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%" height="280">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0d1527"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Text Neon Gradient -->
+    <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.08"/>
+    </pattern>
+
+    <style>
+      .mono-text {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      }
+      .sans-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.8; r: 4px; }
+        50% { opacity: 1; r: 5.5px; }
+      }
+      @keyframes radarSweep {
+        0% { transform: translateY(0); opacity: 0; }
+        50% { opacity: 0.3; }
+        100% { transform: translateY(280px); opacity: 0; }
+      }
+      .node-pulse {
+        animation: pulseGlow 2.5s infinite ease-in-out;
+      }
+      .radar-line {
+        animation: radarSweep 6s infinite linear;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="848" height="278" x="1" y="1" rx="16" fill="url(#bgGradient)" stroke="url(#borderGradient)" stroke-width="1.5"/>
+
+  <!-- Cyber Grid Background -->
+  <rect width="846" height="276" x="2" y="2" rx="15" fill="url(#cyberGrid)"/>
+
+  <!-- Subtle Cyber Corner Accents -->
+  <path d="M 12 28 L 12 12 L 28 12" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+  <path d="M 838 28 L 838 12 L 822 12" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+  <path d="M 12 252 L 12 268 L 28 268" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+  <path d="M 838 252 L 838 268 L 822 268" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+
+  <!-- Top System Status Pill -->
+  <g transform="translate(425, 45)">
+    <rect x="-180" y="-14" width="360" height="28" rx="14" fill="#0c172e" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="-150" cy="0" r="4.5" fill="#10B981" class="node-pulse" filter="url(#softGlow)"/>
+    <text x="-135" y="4.5" fill="#94A3B8" class="mono-text" font-size="11.5" letter-spacing="1.5">NODE: PESHAWAR // STATUS: ACTIVE</text>
+  </g>
+
+  <!-- Main Hero Name -->
+  <text x="425" y="125" text-anchor="middle" fill="url(#nameGradient)" class="sans-text" font-weight="900" font-size="48" letter-spacing="4" filter="url(#softGlow)">
+    ASAD LEE
+  </text>
+
+  <!-- Subtitle Tagline -->
+  <text x="425" y="162" text-anchor="middle" fill="#E2E8F0" class="mono-text" font-weight="500" font-size="15" letter-spacing="2">
+    FULL-STACK &amp; WEB3 ARCHITECT • AGENT INFRASTRUCTURE
+  </text>
+
+  <!-- Divider Line with glowing diamond -->
+  <line x1="220" y1="184" x2="630" y2="184" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1"/>
+  <polygon points="425,180 429,184 425,188 421,184" fill="#38BDF8" filter="url(#softGlow)"/>
+
+  <!-- Tech Telemetry Pills -->
+  <g transform="translate(425, 222)">
+    <!-- Pill 1 -->
+    <g transform="translate(-290, 0)">
+      <rect x="-65" y="-13" width="130" height="26" rx="6" fill="#0f172a" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" fill="#38BDF8" class="mono-text" font-size="11" font-weight="600">ED25519 IDENTITY</text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(-100, 0)">
+      <rect x="-70" y="-13" width="140" height="26" rx="6" fill="#0f172a" stroke="#818CF8" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" fill="#818CF8" class="mono-text" font-size="11" font-weight="600">HTLC/PTLC RAILS</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(100, 0)">
+      <rect x="-75" y="-13" width="150" height="26" rx="6" fill="#0f172a" stroke="#C084FC" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" fill="#C084FC" class="mono-text" font-size="11" font-weight="600">AUTONOMOUS AGENTS</text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(290, 0)">
+      <rect x="-65" y="-13" width="130" height="26" rx="6" fill="#0f172a" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" fill="#38BDF8" class="mono-text" font-size="11" font-weight="600">CROSS-CHAIN WEB3</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 330" width="100%" height="330">
+  <defs>
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <style>
+      .term-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      }
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor {
+        animation: blinkCursor 1s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Outer Frame -->
+  <rect width="848" height="328" x="1" y="1" rx="12" fill="#090d16" stroke="url(#termBorder)" stroke-width="1.2"/>
+
+  <!-- Titlebar -->
+  <path d="M 1 13 Q 1 1 13 1 L 837 1 Q 849 1 849 13 L 849 38 L 1 38 Z" fill="#0f172a"/>
+  <line x1="1" y1="38" x2="849" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Window Control Buttons (macOS style) -->
+  <circle cx="22" cy="19" r="6" fill="#EF4444"/>
+  <circle cx="42" cy="19" r="6" fill="#F59E0B"/>
+  <circle cx="62" cy="19" r="6" fill="#10B981"/>
+
+  <!-- Titlebar Title -->
+  <text x="425" y="24" text-anchor="middle" fill="#94A3B8" class="term-font" font-size="12" font-weight="500">
+    asad@technocore-grid: ~/sovereign-agent-runtime (zsh)
+  </text>
+
+  <!-- Terminal Content Lines -->
+  <!-- Command 1 -->
+  <g transform="translate(26, 70)">
+    <text x="0" y="0" fill="#38BDF8" class="term-font" font-size="13.5" font-weight="700">asad@technocore</text>
+    <text x="145" y="0" fill="#94A3B8" class="term-font" font-size="13.5">:</text>
+    <text x="155" y="0" fill="#818CF8" class="term-font" font-size="13.5">~</text>
+    <text x="170" y="0" fill="#F8FAFC" class="term-font" font-size="13.5">$</text>
+    <text x="190" y="0" fill="#F1F5F9" class="term-font" font-size="13.5" font-weight="600">sysinfo --identity</text>
+
+    <!-- Output 1 -->
+    <text x="15" y="24" fill="#64748B" class="term-font" font-size="13">├─ Architect    :</text>
+    <text x="165" y="24" fill="#38BDF8" class="term-font" font-size="13" font-weight="600">Asad Lee</text>
+    <text x="245" y="24" fill="#94A3B8" class="term-font" font-size="13">(Full-Stack &amp; Web3 Systems)</text>
+
+    <text x="15" y="46" fill="#64748B" class="term-font" font-size="13">├─ Origin       :</text>
+    <text x="165" y="46" fill="#E2E8F0" class="term-font" font-size="13">Peshawar, Pakistan</text>
+    <text x="340" y="46" fill="#10B981" class="term-font" font-size="13">[Node verified]</text>
+
+    <text x="15" y="68" fill="#64748B" class="term-font" font-size="13">└─ Core Focus   :</text>
+    <text x="165" y="68" fill="#C084FC" class="term-font" font-size="13">Agent Telemetry, Trustless HTLC/PTLC Rails &amp; Cryptography</text>
+  </g>
+
+  <!-- Command 2 -->
+  <g transform="translate(26, 178)">
+    <text x="0" y="0" fill="#38BDF8" class="term-font" font-size="13.5" font-weight="700">asad@technocore</text>
+    <text x="145" y="0" fill="#94A3B8" class="term-font" font-size="13">:</text>
+    <text x="155" y="0" fill="#818CF8" class="term-font" font-size="13">~</text>
+    <text x="170" y="0" fill="#F8FAFC" class="term-font" font-size="13">$</text>
+    <text x="190" y="0" fill="#F1F5F9" class="term-font" font-size="13" font-weight="600">inspect --active-protocols</text>
+
+    <!-- Output 2 -->
+    <text x="15" y="24" fill="#10B981" class="term-font" font-size="13">[LOADED]</text>
+    <text x="95" y="24" fill="#E2E8F0" class="term-font" font-size="13">technocore-console</text>
+    <text x="260" y="24" fill="#64748B" class="term-font" font-size="13">Ed25519 identity &amp; WebSocket control panel</text>
+
+    <text x="15" y="46" fill="#10B981" class="term-font" font-size="13">[LOADED]</text>
+    <text x="95" y="46" fill="#E2E8F0" class="term-font" font-size="13">tclk-deal-engine</text>
+    <text x="260" y="46" fill="#64748B" class="term-font" font-size="13">Multi-agent HTLC/PTLC cryptographic deal-making</text>
+
+    <text x="15" y="68" fill="#10B981" class="term-font" font-size="13">[LOADED]</text>
+    <text x="95" y="68" fill="#E2E8F0" class="term-font" font-size="13">arcshift-bridge</text>
+    <text x="260" y="68" fill="#64748B" class="term-font" font-size="13">USDC liquidity transfer &amp; cross-chain rail</text>
+  </g>
+
+  <!-- Command 3 (Active Prompt with Blinking Cursor) -->
+  <g transform="translate(26, 286)">
+    <text x="0" y="0" fill="#38BDF8" class="term-font" font-size="13.5" font-weight="700">asad@technocore</text>
+    <text x="145" y="0" fill="#94A3B8" class="term-font" font-size="13">:</text>
+    <text x="155" y="0" fill="#818CF8" class="term-font" font-size="13">~</text>
+    <text x="170" y="0" fill="#F8FAFC" class="term-font" font-size="13">$</text>
+    <text x="190" y="0" fill="#10B981" class="term-font" font-size="13.5" font-weight="600">build-in-public --continuous</text>
+    <rect x="425" y="-13" width="9" height="17" fill="#38BDF8" class="cursor"/>
+  </g>
+</svg>
