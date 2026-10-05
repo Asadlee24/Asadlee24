@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="250">
+  <defs>
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0c1322"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <radialGradient id="cyanGlowDark" cx="15%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlowDark" cx="85%" cy="75%" r="55%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="titleGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="45%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <linearGradient id="borderGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <style>
+      .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Plus Jakarta Sans', Roboto, sans-serif; }
+      .mono-font { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+      @keyframes pulseDark {
+        0%, 100% { opacity: 0.8; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      .dot-pulse { animation: pulseDark 2s infinite ease-in-out; transform-origin: 32px 35px; }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="848" height="248" x="1" y="1" rx="20" fill="url(#bgGradDark)" stroke="url(#borderGradDark)" stroke-width="1.2"/>
+  
+  <!-- Ambient Radial Glows -->
+  <rect width="848" height="248" x="1" y="1" rx="20" fill="url(#cyanGlowDark)"/>
+  <rect width="848" height="248" x="1" y="1" rx="20" fill="url(#purpleGlowDark)"/>
+
+  <!-- Top Status Badge -->
+  <g transform="translate(40, 26)">
+    <rect width="230" height="26" rx="13" fill="#0f172a" fill-opacity="0.8" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="15" cy="13" r="4" fill="#22D3EE" class="dot-pulse"/>
+    <text x="28" y="17" fill="#38BDF8" class="sans-font" font-size="10.5" font-weight="700" letter-spacing="0.8">AVAILABLE FOR PROJECTS</text>
+  </g>
+
+  <!-- Title / Name -->
+  <text x="40" y="105" fill="url(#titleGradDark)" class="sans-font" font-weight="800" font-size="42" letter-spacing="-0.5">
+    Asad Lee
+  </text>
+
+  <!-- Subtitle -->
+  <text x="40" y="136" fill="#F1F5F9" class="sans-font" font-weight="600" font-size="16" letter-spacing="0.2">
+    Cyber Security Researcher &amp; Full-Stack Web Developer
+  </text>
+
+  <!-- Description -->
+  <text x="40" y="165" fill="#94A3B8" class="sans-font" font-weight="400" font-size="13.5" letter-spacing="0.1">
+    Crafting high-performance decentralized protocols, secure Web3 infrastructure &amp; resilient digital architectures.
+  </text>
+
+  <!-- Bottom Tech Pills -->
+  <g transform="translate(40, 195)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="100" height="26" rx="8" fill="#1e293b" fill-opacity="0.6" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="50" y="17" text-anchor="middle" fill="#E2E8F0" class="mono-font" font-size="11" font-weight="600">TypeScript</text>
+
+    <!-- Pill 2 -->
+    <rect x="110" y="0" width="85" height="26" rx="8" fill="#1e293b" fill-opacity="0.6" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="152.5" y="17" text-anchor="middle" fill="#E2E8F0" class="mono-font" font-size="11" font-weight="600">Next.js</text>
+
+    <!-- Pill 3 -->
+    <rect x="205" y="0" width="85" height="26" rx="8" fill="#1e293b" fill-opacity="0.6" stroke="#818CF8" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="247.5" y="17" text-anchor="middle" fill="#E2E8F0" class="mono-font" font-size="11" font-weight="600">Web3</text>
+
+    <!-- Pill 4 -->
+    <rect x="300" y="0" width="145" height="26" rx="8" fill="#1e293b" fill-opacity="0.6" stroke="#818CF8" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="372.5" y="17" text-anchor="middle" fill="#E2E8F0" class="mono-font" font-size="11" font-weight="600">Ed25519 &amp; HTLC</text>
+
+    <!-- Pill 5 -->
+    <rect x="455" y="0" width="145" height="26" rx="8" fill="#1e293b" fill-opacity="0.6" stroke="#C084FC" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="527.5" y="17" text-anchor="middle" fill="#E2E8F0" class="mono-font" font-size="11" font-weight="600">Security Research</text>
+  </g>
+
+  <!-- Right Side Decorative Subtle Graphic Accent -->
+  <g transform="translate(730, 125)" opacity="0.45">
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="4,6"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#818CF8" stroke-width="1.2"/>
+    <polygon points="0,-25 22,12 -22,12" fill="none" stroke="#C084FC" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="5" fill="#38BDF8"/>
+  </g>
+</svg>
