@@ -80,27 +80,33 @@ My work focuses on writing clean, scalable code across TypeScript, Next.js, and 
 ### Activity & Repository Metrics
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Asadlee24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=0284c7&text_color=94a3b8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Asadlee24&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&icon_color=0284c7&text_color=334155">
-    <img src="https://github-readme-stats.vercel.app/api?username=Asadlee24&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&icon_color=0284c7&text_color=334155" width="48%" alt="Asadlee24 Stats" />
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Asadlee24&theme=tokyonight&hide_border=true&background=0D1117&ring=0284C7&fire=38BDF8&currStreakLabel=38BDF8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Asadlee24&theme=default&hide_border=true&background=FFFFFF&ring=0284C7&fire=0284C7&currStreakLabel=0284C7">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Asadlee24&theme=default&hide_border=true&background=FFFFFF&ring=0284C7&fire=0284C7&currStreakLabel=0284C7" width="48%" alt="Streak Stats" />
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Asadlee24&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Asadlee24&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&text_color=334155">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asadlee24&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&text_color=334155" width="65%" alt="Top Languages" />
-  </picture>
+  <table border="0">
+    <tr>
+      <td width="50%" align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Asadlee24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=0284c7&text_color=94a3b8">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Asadlee24&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&icon_color=0284c7&text_color=334155">
+          <img src="https://github-readme-stats.vercel.app/api?username=Asadlee24&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&icon_color=0284c7&text_color=334155" width="100%" alt="Asadlee24 Stats" />
+        </picture>
+      </td>
+      <td width="50%" align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Asadlee24&theme=tokyonight&hide_border=true&background=0D1117&ring=0284C7&fire=38BDF8&currStreakLabel=38BDF8">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Asadlee24&theme=default&hide_border=true&background=FFFFFF&ring=0284C7&fire=0284C7&currStreakLabel=0284C7">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Asadlee24&theme=default&hide_border=true&background=FFFFFF&ring=0284C7&fire=0284C7&currStreakLabel=0284C7" width="100%" alt="Streak Stats" />
+        </picture>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Asadlee24&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Asadlee24&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&text_color=334155">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asadlee24&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&text_color=334155" width="70%" alt="Top Languages" />
+        </picture>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
