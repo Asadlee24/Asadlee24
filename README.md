@@ -1,6 +1,18 @@
-<p>
-  <img src="./assets/asad-editorial.svg" width="100%" alt="Asad Lee. I build things for the web. Independent developer based in Peshawar, Pakistan." />
-</p>
+<a href="https://asadlee.bond">
+  <img src="./assets/asad-studio-animated.svg" width="100%" alt="Asad Lee — web developer and open-source contributor. Animated dimensional AL studio. Visit asadlee.bond." />
+</a>
+
+<br>
+
+<img src="https://avatars.githubusercontent.com/u/176794791?v=4&amp;s=240" width="112" height="112" align="left" alt="Asad Lee's GitHub profile photo" />
+
+### Hey, I'm Asad.
+
+A developer from **Peshawar, Pakistan**, building websites, useful tools and open-source experiments.
+
+**[Explore my portfolio ↗](https://asadlee.bond)** · [Let's talk](https://t.me/Asadaly2)
+
+<br clear="left">
 
 [Portfolio ↗](https://asadlee.bond) &nbsp; / &nbsp; [X](https://x.com/asadleo416) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/asad-ali-3355273ba) &nbsp; / &nbsp; [Telegram](https://t.me/Asadaly2)
 
