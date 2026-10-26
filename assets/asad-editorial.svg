@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Asad Lee — independent developer</title><desc id="desc">An ivory editorial header with a terracotta geometric monogram. Websites, useful tools and open-source experiments. Peshawar, Pakistan.</desc>
+<rect width="1200" height="360" rx="8" fill="#f3f0e8"/>
+<path d="M38 48H1162" stroke="#ccc7bd"/>
+<g font-family="monospace" font-size="14" letter-spacing="2" fill="#59574f"><text x="40" y="32">ASADLEE24 / INDEPENDENT DEVELOPER</text><text x="1160" y="32" text-anchor="end">PESHAWAR, PK</text></g>
+<text x="35" y="170" font-family="Georgia,serif" font-size="102" letter-spacing="-5" fill="#22231f">Asad Lee.</text>
+<text x="42" y="224" font-family="Arial,sans-serif" font-size="25" fill="#44453f">I build things for the web.</text>
+<text x="42" y="263" font-family="Arial,sans-serif" font-size="19" fill="#66665e">Useful tools. Open-source experiments. Details that matter.</text>
+<g transform="translate(935 88)" fill="none" stroke="#b55237" stroke-width="18" stroke-linecap="square"><path d="M0 148L67 0L134 148M28 90H106"/><path d="M163 0V148H211"/></g>
+<path d="M40 304H1160" stroke="#ccc7bd"/>
+<text x="42" y="336" font-family="monospace" font-size="14" letter-spacing="2" fill="#59574f">WEB DEVELOPMENT / AGENT TOOLS / ONCHAIN APPS</text>
+<circle cx="1149" cy="331" r="7" fill="#b55237"/>
+</svg>
