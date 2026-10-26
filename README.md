@@ -1,68 +1,87 @@
 <a href="https://asadlee.bond">
-  <img src="./assets/asad-studio-animated.svg" width="100%" alt="Asad Lee — web developer and open-source contributor. Animated dimensional AL studio. Visit asadlee.bond." />
+  <img src="./assets/asad-studio-animated.svg" width="100%" alt="Asad Lee — developer and open-source contributor. Floating metallic AL monogram. Visit asadlee.bond." />
 </a>
 
 <br>
 
-<img src="https://avatars.githubusercontent.com/u/176794791?v=4&amp;s=240" width="112" height="112" align="left" alt="Asad Lee's GitHub profile photo" />
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/176794791?v=4&amp;s=240" width="104" height="104" alt="Asad Lee's profile photo" />
+</p>
 
-### Hey, I'm Asad.
+<h2 align="center">Hey, I'm Asad.</h2>
 
-A developer from **Peshawar, Pakistan**, building websites, useful tools and open-source experiments.
+<p align="center">I build web apps, explore agent networks, and contribute fixes to the tools I use.<br>Based in Peshawar, Pakistan.</p>
 
-**[Explore my portfolio ↗](https://asadlee.bond)** · [Let's talk](https://t.me/Asadaly2)
-
-<br clear="left">
-
-[Portfolio ↗](https://asadlee.bond) &nbsp; / &nbsp; [X](https://x.com/asadleo416) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/asad-ali-3355273ba) &nbsp; / &nbsp; [Telegram](https://t.me/Asadaly2)
-
-<br>
-
-I'm Asad, a developer based in **Peshawar, Pakistan**. I make websites and tools, explore onchain applications, and contribute fixes to open-source projects.
-
-A lot of my recent work is around Technocore: building interfaces for agent activity, working with signed identities, and making the network easier to explore. I like turning complicated ideas into something you can actually open and use.
+<p align="center">
+  <a href="https://asadlee.bond"><b>Portfolio ↗</b></a> &nbsp; · &nbsp;
+  <a href="https://x.com/asadleo416">X</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/asad-ali-3355273ba">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="https://t.me/Asadaly2">Get in touch</a>
+</p>
 
 <br>
 
-## Selected work
+## Built to be explored
 
-**01 &nbsp; Technocore Console**  
-An interface for exploring Technocore rooms and working with Ed25519 identities.  
-[Source](https://github.com/Asadlee24/technocore-console) · [Open app ↗](https://technocore-console.vercel.app)
+<a href="https://github.com/Asadlee24/technocore-pulse">
+  <img src="./assets/project-pulse.svg" width="100%" alt="Technocore Pulse — illustrated city motif for an agent activity explorer." />
+</a>
 
-**02 &nbsp; Technocore Pulse**  
-A city view of Technocore room activity, with links back to the underlying records.  
-[Source](https://github.com/Asadlee24/technocore-pulse) · [Open app ↗](https://technocore-pulse-hazel.vercel.app)
+Rooms become buildings in an explorable view of Technocore activity. Follow the visual back to the original records.
 
-**03 &nbsp; Bridgr**  
-A USDC bridge project built around Circle's CCTP, with a focus on the testnet transfer experience.  
-[Source](https://github.com/Asadlee24/arcshift-usdc-bridge) · [Open app ↗](https://bridgr-usdc-bridge.vercel.app)
-
-**04 &nbsp; Warp**  
-A browser-based peer-to-peer file transfer project with QR pairing.  
-[Source](https://github.com/Asadlee24/warp-transfer) · [Open app ↗](https://warp-transfer.vercel.app)
+[Open Pulse ↗](https://technocore-pulse-hazel.vercel.app) · [Read the code](https://github.com/Asadlee24/technocore-pulse)
 
 <br>
 
-## Open source, in practice
+<a href="https://github.com/Asadlee24/arcshift-usdc-bridge">
+  <img src="./assets/project-bridgr.svg" width="100%" alt="Bridgr — illustrated connected portals for a USDC bridge project." />
+</a>
 
-I contribute through focused fixes, regression tests and documentation improvements.
+A USDC bridge project using Circle's CCTP, focused on making testnet transfers easier to follow.
 
-- **[FLOP / TCLK](https://github.com/flop-labs/tclk/pull/55)** — preserve exact nonce strings through the MCP interface. **Merged.**
-- **[Technocore Chat](https://github.com/flop-labs/technocore-chat/pull/699)** — narrow duplicate filtering so legitimate reference text stays distinct. Open contribution.
-- **[Primus](https://github.com/primus-labs/zktls-core-sdk/pull/15)** — regression coverage for production environment defaults. Open contribution.
+[Open Bridgr ↗](https://bridgr-usdc-bridge.vercel.app) · [Read the code](https://github.com/Asadlee24/arcshift-usdc-bridge)
 
 <br>
 
-## On my workbench
+### More from the workbench
 
-**TypeScript · JavaScript · React · Next.js · Node.js**  
-Python, Solidity, Docker and Git when the project calls for them.
+**[Technocore Console](https://github.com/Asadlee24/technocore-console)**  
+Work with Ed25519 identities and explore Technocore rooms. [Try it ↗](https://technocore-console.vercel.app)
 
-I'm interested in useful interfaces, agent infrastructure, and the small reliability fixes that make software easier to trust.
+**[Technocore Explorer](https://github.com/Asadlee24/technocore-explorer)**  
+Browse activity across the Technocore agent network.
+
+**[Warp](https://github.com/Asadlee24/warp-transfer)**  
+Browser-based peer-to-peer file transfer with QR pairing. [Try it ↗](https://warp-transfer.vercel.app)
+
+<br>
+
+## Contributions you can inspect
+
+Small, specific changes with code and evidence attached.
+
+- **[FLOP / TCLK #55](https://github.com/flop-labs/tclk/pull/55)** · **Merged**  
+  Preserve exact nonce strings through the MCP interface.
+- **[Technocore Chat #699](https://github.com/flop-labs/technocore-chat/pull/699)** · Open contribution  
+  Keep legitimate reference text from collapsing into duplicate keys.
+- **[Primus SDK #15](https://github.com/primus-labs/zktls-core-sdk/pull/15)** · Open contribution  
+  Add regression coverage for production environment defaults.
+
+<sub>These links show the live review and merge status.</sub>
+
+<br>
+
+## What I work with
+
+**TypeScript · JavaScript · React · Next.js · Node.js**
+
+Python, Solidity, Docker and Git when the project calls for them. My recent interests include signed identities, agent infrastructure and interfaces that make technical systems easier to understand.
 
 ---
 
-Have a website or tool in mind? [See my work](https://asadlee.bond) or [send me a message](https://t.me/Asadaly2).
+<p align="center">
+  <b>Have something worth building?</b><br>
+  <a href="https://asadlee.bond">Explore my portfolio</a> · <a href="https://t.me/Asadaly2">Let's talk</a>
+</p>
 
-<sub>Built from Peshawar. Always something to improve.</sub>
+<p align="center"><sub>Asad Lee / Peshawar, Pakistan</sub></p>
