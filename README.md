@@ -15,6 +15,24 @@
 
 ## Built to be explored
 
+### Edvora
+
+A school management platform for attendance, fees, academic records, and everyday school operations.
+
+[Visit Edvora ↗](https://edvora.cyou)
+
+### Qadam Flex
+
+A footwear store with a searchable collection, customer accounts, and order tracking.
+
+[Visit Qadam Flex ↗](https://www.qadamflex.bond/) · [Read the code](https://github.com/Asadlee24/shoes)
+
+### MDK Electronics
+
+An online storefront for cameras, audio, and electronics.
+
+[Visit MDK Electronics ↗](https://mdkelectronics.com/) · [Read the code](https://github.com/Asadlee24/Electronics-Store)
+
 ### Technocore Pulse
 
 Rooms become buildings in an explorable view of Technocore activity. Follow the visual back to the original records.
@@ -37,19 +55,6 @@ Browse activity across the Technocore agent network.
 
 **[Warp](https://github.com/Asadlee24/warp-transfer)**  
 Browser-based peer-to-peer file transfer with QR pairing. [Try it ↗](https://warp-transfer.vercel.app)
-
-## Contributions you can inspect
-
-Small, specific changes with code and evidence attached.
-
-- **[FLOP / TCLK #55](https://github.com/flop-labs/tclk/pull/55)** · **Merged**  
-  Preserve exact nonce strings through the MCP interface.
-- **[Technocore Chat #699](https://github.com/flop-labs/technocore-chat/pull/699)** · Open contribution  
-  Keep legitimate reference text from collapsing into duplicate keys.
-- **[Primus SDK #15](https://github.com/primus-labs/zktls-core-sdk/pull/15)** · Open contribution  
-  Add regression coverage for production environment defaults.
-
-<sub>These links show the live review and merge status.</sub>
 
 ## What I work with
 
