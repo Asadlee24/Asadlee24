@@ -1,87 +1,37 @@
-<a href="https://asadlee.bond">
-  <img src="./assets/asad-studio-animated.svg" width="100%" alt="Asad Lee — developer and open-source contributor. Floating metallic AL monogram. Visit asadlee.bond." />
-</a>
-
-<br>
-
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/176794791?v=4&amp;s=240" width="104" height="104" alt="Asad Lee's profile photo" />
+  <a href="https://asadlee.bond">
+    <img src="./assets/asad-profile-2026.svg" width="100%" alt="Asad Lee — developer and open-source contributor. Building useful things for the web." />
+  </a>
 </p>
 
-<h2 align="center">Hey, I'm Asad.</h2>
+I'm Asad, a developer from Peshawar, Pakistan. I build web apps, explore agent networks, and contribute to open source. I like turning complex ideas into tools people can actually use.
 
-<p align="center">I build web apps, explore agent networks, and contribute fixes to the tools I use.<br>Based in Peshawar, Pakistan.</p>
+[**Portfolio ↗**](https://asadlee.bond) &nbsp; · &nbsp; [X](https://x.com/asadleo416) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/asad-ali-3355273ba) &nbsp; · &nbsp; [Get in touch](https://t.me/Asadaly2)
 
-<p align="center">
-  <a href="https://asadlee.bond"><b>Portfolio ↗</b></a> &nbsp; · &nbsp;
-  <a href="https://x.com/asadleo416">X</a> &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/asad-ali-3355273ba">LinkedIn</a> &nbsp; · &nbsp;
-  <a href="https://t.me/Asadaly2">Get in touch</a>
-</p>
+## Selected projects
 
-<br>
+**[Technocore Pulse ↗](https://technocore-pulse-hazel.vercel.app)**  
+Explore Technocore activity as an interactive city. [View source](https://github.com/Asadlee24/technocore-pulse)
 
-## Built to be explored
+**[Bridgr ↗](https://bridgr-usdc-bridge.vercel.app)**  
+A USDC bridge project exploring testnet transfers with Circle's CCTP. [View source](https://github.com/Asadlee24/arcshift-usdc-bridge)
 
-<a href="https://github.com/Asadlee24/technocore-pulse">
-  <img src="./assets/project-pulse.svg" width="100%" alt="Technocore Pulse — illustrated city motif for an agent activity explorer." />
-</a>
+**[Warp ↗](https://warp-transfer.vercel.app)**  
+Peer-to-peer file transfer in the browser with QR pairing. [View source](https://github.com/Asadlee24/warp-transfer)
 
-Rooms become buildings in an explorable view of Technocore activity. Follow the visual back to the original records.
+## Open source
 
-[Open Pulse ↗](https://technocore-pulse-hazel.vercel.app) · [Read the code](https://github.com/Asadlee24/technocore-pulse)
+I enjoy investigating bugs, writing reproducible reports, and improving the tools I use.
 
-<br>
+- [FLOP / TCLK #55](https://github.com/flop-labs/tclk/pull/55) — preserve exact nonce strings in the MCP interface. **Merged.**
+- [FLOP Network #82](https://github.com/flop-labs/network/issues/82) — reported an incorrect wallet creation status in the SDK.
+- [Technocore Chat #699](https://github.com/flop-labs/technocore-chat/pull/699) — improve duplicate-filter handling of reference text.
+- [Primus SDK #15](https://github.com/primus-labs/zktls-core-sdk/pull/15) — regression tests for production environment defaults.
 
-<a href="https://github.com/Asadlee24/arcshift-usdc-bridge">
-  <img src="./assets/project-bridgr.svg" width="100%" alt="Bridgr — illustrated connected portals for a USDC bridge project." />
-</a>
+## Toolbox
 
-A USDC bridge project using Circle's CCTP, focused on making testnet transfers easier to follow.
-
-[Open Bridgr ↗](https://bridgr-usdc-bridge.vercel.app) · [Read the code](https://github.com/Asadlee24/arcshift-usdc-bridge)
-
-<br>
-
-### More from the workbench
-
-**[Technocore Console](https://github.com/Asadlee24/technocore-console)**  
-Work with Ed25519 identities and explore Technocore rooms. [Try it ↗](https://technocore-console.vercel.app)
-
-**[Technocore Explorer](https://github.com/Asadlee24/technocore-explorer)**  
-Browse activity across the Technocore agent network.
-
-**[Warp](https://github.com/Asadlee24/warp-transfer)**  
-Browser-based peer-to-peer file transfer with QR pairing. [Try it ↗](https://warp-transfer.vercel.app)
-
-<br>
-
-## Contributions you can inspect
-
-Small, specific changes with code and evidence attached.
-
-- **[FLOP / TCLK #55](https://github.com/flop-labs/tclk/pull/55)** · **Merged**  
-  Preserve exact nonce strings through the MCP interface.
-- **[Technocore Chat #699](https://github.com/flop-labs/technocore-chat/pull/699)** · Open contribution  
-  Keep legitimate reference text from collapsing into duplicate keys.
-- **[Primus SDK #15](https://github.com/primus-labs/zktls-core-sdk/pull/15)** · Open contribution  
-  Add regression coverage for production environment defaults.
-
-<sub>These links show the live review and merge status.</sub>
-
-<br>
-
-## What I work with
-
-**TypeScript · JavaScript · React · Next.js · Node.js**
-
-Python, Solidity, Docker and Git when the project calls for them. My recent interests include signed identities, agent infrastructure and interfaces that make technical systems easier to understand.
+TypeScript · JavaScript · React · Next.js · Node.js · Python · Solidity · Docker
 
 ---
 
-<p align="center">
-  <b>Have something worth building?</b><br>
-  <a href="https://asadlee.bond">Explore my portfolio</a> · <a href="https://t.me/Asadaly2">Let's talk</a>
-</p>
-
-<p align="center"><sub>Asad Lee / Peshawar, Pakistan</sub></p>
+<sub>Always curious. Always building. &nbsp;·&nbsp; <a href="https://asadlee.bond">asadlee.bond</a></sub>
